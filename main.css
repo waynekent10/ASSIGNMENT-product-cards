@@ -1,0 +1,79 @@
+/*preview Card
+
+The title and product image are centered.
+Notice that the text for the description in the image is justified.
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text.*/
+header {
+ margin-top: auto;
+ text-align: center;
+ word-wrap: normal; 
+ padding: 0;
+}
+h2 {
+  text-align: center;
+}
+.flex-container {
+  align-self: flex-start;
+  flex-shrink: inherit;
+  height: 100px;
+}
+.cards{
+  margin: 0;
+  max-width: 80%;
+  display: grid;
+  grid-template-rows: (3, 1fr);
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 20px;
+  font-family: sans-serif;
+
+}
+h4 {
+  font-display: bold;
+}
+.product-availability {
+text-align: center;
+background-color: grey;
+color: yellow;
+}
+.card{
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  height: 33;
+
+}
+
+
+
+
+.card__content {
+  line-height: 0.5;
+  font-size: .5em;
+  padding: 15px;
+  background: #fafafa;
+}
+
+ section2 p:first-child {
+  margin-bottom: 0;
+  background-color: yellow;
+  border: black ;
+}
+
+section3 p:first-of-type
+
+.card__info {
+  padding:15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  font-size: 0.8em;
+  border-bottom: 2px solid #cccccc;
+  
+}
+
+.card__info i {
+  font-size:  0.9em;
+  margin-right: 8px;
+
+}
